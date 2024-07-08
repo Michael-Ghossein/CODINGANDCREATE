@@ -1,4 +1,3 @@
-﻿/* Ensure the body and html take the full height */
 html, body {
     height: 100%;
     margin: 0;
@@ -35,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5); /* Slightly transparent background for better readability */
+    background: rgba(0, 0, 0, 0.5); 
     color: #fff;
     padding: 10px 20px;
     width: 100%;
@@ -61,15 +60,14 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Ensure the content is visible over the background */
 .introduction, .container, .main-content, .sidebar {
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for readability */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Adjust introduction section */
+
 .introduction {
     padding: 40px 20px;
     text-align: center;
